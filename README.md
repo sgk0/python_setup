@@ -26,3 +26,5 @@ https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.h
 - I strongly recommend to set the default channel from which to obtain libraries/updates to be conda-forge. This can be done via "conda config --add channels conda-forge"
 
 This last recommendation stems from the conda-forge repository being very large (having many versions of many libraries) and also being frequently updated. Thus, one is most likely to find the best compatibility between the various libraries when using this channel. A important problem and source of headaches is that when libraries are installed from different repositories, while the libraries may look like they installed okay, they may not actually play nice with one another.
+
+to install specific version of a library, "conda install pandas=0.24.2"
